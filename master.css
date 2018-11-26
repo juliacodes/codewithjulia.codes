@@ -25,9 +25,9 @@ body{
 }
 
 h1{
+    margin: 0 auto 30px auto;
     width: 40%;
     font-size: 40px;
-    margin-bottom: 30px;
     border-bottom: 3px solid #A6D6C9;
 }
 
