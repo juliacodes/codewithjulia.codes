@@ -18,7 +18,7 @@ body{
 .main{
     display: block;
     margin: 200px auto 0 auto;
-    width: 90%;
+    width: 400px;
     height: 30vh;
     padding: 10px;
     background-color: #E5E5E8;
@@ -26,7 +26,6 @@ body{
 
 h1{
     margin: 0 auto 30px auto;
-    width: 40%;
     font-size: 40px;
     border-bottom: 3px solid #A6D6C9;
 }
