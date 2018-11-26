@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+.main-container{
+    width: 100vw;
+    height: 95vw;
+    position: absolute;
+}
+
+.main{
+    display: block;
+    margin: 200px auto 0 auto;
+    width: 500px;
+    height: 30vh;
+    padding: 30px;
+    background-color: white;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #A6D6C9;
+}
+
+p:nth-child(3){
+    margin-top: 20px;
+    font-weight: bolder;
+}
