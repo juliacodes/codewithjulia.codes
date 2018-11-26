@@ -6,6 +6,7 @@
 
 body{
     text-align: center;
+    background-color: #E5E5E8;
 }
 .main-container{
     width: 100vw;
@@ -16,10 +17,10 @@ body{
 .main{
     display: block;
     margin: 200px auto 0 auto;
-    width: 500px;
+    width: 90%;
     height: 30vh;
-    padding: 30px;
-    background-color: white;
+    padding: 10px;
+    background-color: #E5E5E8;
 }
 
 h1{
