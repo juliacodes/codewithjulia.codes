@@ -18,7 +18,7 @@ body{
 
 
 .home{
-    background-image: url(1X/Artboard\ 1.png);
+    background-image: url(https://raw.githubusercontent.com/juliajohnson18/codewithjulia.codes/master/Artboard%201.png);
     background-size: cover;
     background-position:top;
     z-index: 99;
@@ -26,7 +26,7 @@ body{
 }
 
 .about{
-    background-image: url(1x/alt-background.png);
+    background-image: url(https://raw.githubusercontent.com/juliajohnson18/codewithjulia.codes/master/alt-background.png);
     background-size: cover;
     background-position:top;
     z-index: 99;
