@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Title of the document</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="master.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <a href="index.html">home</a> 
+        <a href="html.html">html</a>
+        <a href="css.html">css</a>
+        <a href="tutorials.html">tutorials</a>
+        <a href="about.html">about</a>
+    </div>
+
+    <div class="container-tut">
+        <div class="header">
+            <h1>Tutorials.</h1>
+            <p>A Continuously Growing Collection of Comprehensive Guides, Always Here, Always Free</p>
+        </div>
+
+        <div class="tab">
+            <button class="tablinks" id="defaultOpen" onclick="openCity(event, 'London')">all</button>
+            <button class="tablinks" onclick="openCity(event, 'Paris')">starter</button>
+            <button class="tablinks" onclick="openCity(event, 'Tokyo')">intermediate</button>
+            <button class="tablinks" onclick="openCity(event, 'Advanced')">advanced</button>
+          </div>
+          
+          <div id="London" class="tabcontent">
+            <div class="all">
+                <div class="tutorial">
+                    <p>starter</p>
+                    <h2>The Absolute Starter Guide to Web Development</h2>
+    
+                    <a href="starterguidetutorial.html"><button class="read">Start Reading</button></a>
+                </div>
+                <div class="tutorial">
+                        <p>starter</p>
+                        <h2>10 Days, 10 Projects to Learn & Master CSS</h2>
+                    <a href="starterguidetutorial.html"><button class="read">Start Reading</button></a>                
+                </div>
+                <div class="tutorial">
+                        <p>starter</p>
+                        <h2>Creating Your Very First Web Page</h2>
+                        <a href="starterguidetutorial.html"><button class="read">Start Reading</button></a>
+                    </div>   
+           
+            </div>
+          </div>
+          
+          <div id="Paris" class="tabcontent">
+            <div class="starter">
+                <div class="tutorial 1s">
+                        <p>starter</p>
+                        <h2>The Absolute Starter Guide to Web Development</h2>
+        
+                        <button class="read">Start Reading</button>
+                    </div>
+                    <div class="tutorial 2s">
+                            <p>starter</p>
+                            <h2>10 Days, 10 Projects to Learn & Master CSS</h2>
+                            <button class="read">Start Reading</button>
+                    </div>
+                    <div class="tutorial 3s">
+                            <p>starter</p>
+                            <h2>Creating Your Very First Web Page</h2>
+                            <button class="read">Start Reading</button>
+                    </div>   
+                
+            </div>
+          </div>
+          </div>
+          
+          <div id="Tokyo" class="tabcontent">
+            <div class="inter">
+                
+          </div>
+          </div>
+
+          <div id="Advanced" class="tabcontent">
+            <div class="adv">
+                <div class="tutorial">
+                    <p>starter</p>
+                    <h2>The Absolute Starter Guide to Web Development</h2>
+    
+                    <a href="/starterguidetutorial.html"><button class="read">Start Reading</button></a>
+                </div>
+                <div class="tutorial">
+                        <h2>Tutorial</h2>
+                </div>
+                <div class="tutorial">
+                        <h2>Tutorial</h2>
+                </div>   
+                <div class="tutorial">
+                        <h2>Tutorial</h2>
+                </div>    
+                <div class="tutorial">
+                        <h2>Tutorial</h2>
+                </div> 
+                <div class="tutorial">
+                        <h2>Tutorial</h2>
+                </div>    
+            </div>
+          </div>
+          </div>
+        
+    </div>
+
+
+    <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        document.getElementById("defaultOpen").click();
+    </script>
+</body>
+
+</html>

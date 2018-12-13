@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Title of the document</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="master.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <a href="index.html">home</a> 
+        <a href="html.html">html</a>
+        <a href="css.html">css</a>
+        <a href="tutorials.html">tutorials</a>
+        <a href="about.html">about</a>
+    </div>
+
+    <div class="page-main">
+        <div class="left-nav">
+            <div class="nav-title-CSS">CSS</div>
+            <p>Introduction</p>
+            <p>Syntax</p>
+            <p>Insertion</p>
+            <p>Height and Width</p>
+            <p>Box Model</p>
+            <p>Text Formating</p>
+            <p>Images</p>
+            <p>Display Properies</p>
+            <p>Position Properties</p>
+            <p>Floats</p>
+            <p>Centering Elements</p>
+            <p>Combinators</p>
+            <p>Pseudo Elements</p>
+            <p>Shadows</p>
+            <p>Transformations</p>
+            <p>Transitions</p>
+            <p>Animations</p>
+            <p>Button Styling</p>
+            <p>Flexbox</p>
+            <p>Responsive</p>
+            
+
+            
+
+
+ 
+
+
+        </div>
+        <div class="right-content">
+            <div class="docu-content">
+            <h1 class="docu-header">Introduction to CSS</h1>
+            <p class="docu-main">CSS or <strong>Cascading Style Sheets</strong> are</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        document.getElementById("defaultOpen").click();
+    </script>
+</body>
+
+</html>
